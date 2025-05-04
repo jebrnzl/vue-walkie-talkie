@@ -1,0 +1,62 @@
+:root {
+  /* Primary colors with gradient */
+  --primary: linear-gradient(135deg, #00d1b2 0%, #00b4d8 100%);
+  --primary-solid: #00d1b2;
+  --primary-light: #ebfffc;
+  --primary-dark: #00947e;
+
+  /* Background colors */
+  --background: #ffffff;
+  --background-alt: #f8f9fa;
+
+  /* Text colors */
+  --text: #2d3436;
+  --text-light: #636e72;
+  --text-dark: #2d3436;
+
+  /* Border colors */
+  --border: #e9ecef;
+  --border-hover: #dee2e6;
+
+  /* Spacing */
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.07);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--text);
+  background: var(--background);
+  font-family:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+    'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Transitions */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}

@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "vue-walkie-talkie-7a8a5",
+    "staging": "vue-walkie-talkie-7a8a5"
+  },
+  "targets": {},
+  "etags": {}
+}
